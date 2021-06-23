@@ -4,9 +4,95 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GoProOffloaderer"
+        xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="GoPro C# Sample" Height="365.999" Width="402" ResizeMode="NoResize">
+    <Window.Resources>
+        <local:BrushBoolColorConverter x:Key="BConverter"></local:BrushBoolColorConverter>
+    </Window.Resources>
+    <Grid Grid.Column="1" Grid.Row="0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <GroupBox Grid.Row="0" Grid.Column="1" Header="Device Selection" Margin="28 8">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="32"/>
+                </Grid.RowDefinitions>
+                <ComboBox Grid.Row="0" Name="DeviceSelectionComboBox" Margin="24 12" ItemsSource="{Binding Devices}" DisplayMemberPath="DeviceInfo.Name" SelectionChanged="BtnConnect_Click"/>
+                <UniformGrid Margin="20 0"  Grid.Row="1" Columns="3">
+                    <Button x:Name="btnScanBLE" Content="Scan" Click="BtnScanBLE_Click" Background="White" Margin="4"/>
+                    <Button x:Name="btnPair" Content="Pair" Click="BtnPair_Click" Background="White"  Margin="4"/>
+                    <Button x:Name="btnConnect" Content="Connect" Click="BtnConnect_Click" Background="White"  Margin="4"/>
+                </UniformGrid>
+            </Grid>
+
+        </GroupBox>
+<Grid Grid.Column="1" Grid.Row="1">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="275"/>
+        <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="14"/>
+        <RowDefinition Height="6"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <svgc:SvgViewbox Grid.Column="1" Grid.Row="0" Grid.RowSpan="4" Source="/Resources/goProUI.svg"/>
+    <Grid Name="Status" Grid.Row="1" Grid.Column="1" Background="Red" Margin="60 0 170 0"></Grid>
+</Grid>
+
+        <TextBlock Grid.Column="1" Grid.Row="3" Name="txtStatusBar" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="12" Padding="0,0,0,0"></TextBlock>
+
+
+
     </Grid>
+
+
+    <!--<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <GroupBox Grid.Column="0" Grid.Row="0" Header="Devices" Margin="4">
+            <UniformGrid>
+                <ListBox x:Name="lbDevices" ItemsSource="{Binding Devices}" DisplayMemberPath="DeviceInfo.Name" Margin="2"/>
+            </UniformGrid>
+
+        </GroupBox>
+
+        <GroupBox Grid.Column="0" Grid.Row="1" Header="BLE" Margin="4">
+            <WrapPanel>
+            </WrapPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="Status">
+            <ProgressBar x:Name="prgBatteryLevel" HorizontalAlignment="Left" Height="11" Margin="20,245,0,0" VerticalAlignment="Top" Width="75" Value="{Binding BatteryLevel, Mode=OneWay}" ToolTip="{Binding BatteryLevel, Mode=OneWay}" Maximum="100" Grid.Column="1"/>
+        </GroupBox>
+
+        <StatusBar Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3" Height="20" Margin="0,0,0,0" VerticalAlignment="Bottom">
+            <StatusBarItem Padding="0">
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>-->
 </Window>

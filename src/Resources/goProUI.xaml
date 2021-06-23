@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svg8" Width="79.374998" Height="52.916668">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources>
+      <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="linearGradient1126" MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,1">
+        <LinearGradientBrush.GradientStops>
+          <GradientStopCollection>
+            <GradientStop Color="#FFFFFFFF" Offset="0"/>
+            <GradientStop Color="#00FFFFFF" Offset="1"/>
+          </GradientStopCollection>
+        </LinearGradientBrush.GradientStops>
+      </LinearGradientBrush>
+      <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="linearGradient1061" MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,1">
+        <LinearGradientBrush.GradientStops>
+          <GradientStopCollection>
+            <GradientStop Color="#FF171717" Offset="0"/>
+            <GradientStop Color="#00171717" Offset="1"/>
+          </GradientStopCollection>
+        </LinearGradientBrush.GradientStops>
+      </LinearGradientBrush>
+      <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="linearGradient1063" MappingMode="Absolute" StartPoint="44,307" EndPoint="58,299">
+        <LinearGradientBrush.GradientStops>
+          <GradientStopCollection>
+            <GradientStop Color="#FF171717" Offset="0"/>
+            <GradientStop Color="#00171717" Offset="1"/>
+          </GradientStopCollection>
+        </LinearGradientBrush.GradientStops>
+      </LinearGradientBrush>
+      <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="linearGradient1128" MappingMode="Absolute" StartPoint="118,-40" EndPoint="63,1">
+        <LinearGradientBrush.GradientStops>
+          <GradientStopCollection>
+            <GradientStop Color="#FFFFFFFF" Offset="0"/>
+            <GradientStop Color="#00FFFFFF" Offset="1"/>
+          </GradientStopCollection>
+        </LinearGradientBrush.GradientStops>
+        <LinearGradientBrush.Transform>
+          <TranslateTransform X="-57.482227" Y="16.70224"/>
+        </LinearGradientBrush.Transform>
+      </LinearGradientBrush>
+    </Canvas.Resources>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: metadata-->
+    <Canvas Name="layer1">
+      <Canvas.RenderTransform>
+        <TranslateTransform X="0" Y="-244.08332"/>
+      </Canvas.RenderTransform>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="12.828936" Canvas.Top="252.49962" Width="53.721172" Height="37.417732" RadiusX="5.0145607" RadiusY="5.8131576" Name="rect832" Fill="#FF323232" StrokeThickness="0.89985096" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+      <Canvas Name="g1032">
+        <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="22.017113" Canvas.Top="283.53458" Width="2.9765625" Height="2.2678571" Name="rect958" Fill="#FFFFFFFF" StrokeThickness="2.41799998" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+        <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="25.732306" Canvas.Top="283.53458" Width="2.9765625" Height="2.2678571" Name="rect9588" Fill="#FFFFFFFF" StrokeThickness="2.41799998" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+        <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="29.447496" Canvas.Top="283.53458" Width="2.9765625" Height="2.2678571" Name="rect9586" Fill="#FFFFFFFF" StrokeThickness="2.41799998" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+        <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="33.162689" Canvas.Top="283.53458" Width="2.9765625" Height="2.2678571" Name="rect9589" Fill="#FFFFFFFF" StrokeThickness="2.41799998" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+        <Canvas Name="g1024">
+          <Canvas.RenderTransform>
+            <MatrixTransform Matrix="0.06068463 0 0 0.06068463 20.248581 280.48087"/>
+          </Canvas.RenderTransform>
+          <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path989" Fill="#FFFFFFFF">
+            <Path.Data>
+              <PathGeometry Figures="m 74.538 33.602 c 0 3.002 -1.86 5.231 -5.579 6.695 -2.889 1.141 -6.411 1.717 -10.57 1.717 h -17.05 c -4.471 0 -8.225 -0.521 -11.275 -1.548 -4.193 -1.409 -6.295 -3.658 -6.295 -6.754 V 17.16 c 0 -2.973 2.137 -5.169 6.423 -6.594 C 33.576 9.5 37.307 8.962 41.397 8.962 h 6.769 c 1.826 0 2.738 0.814 2.738 2.446 0 1.639 -0.912 2.463 -2.738 2.463 h -2.067 c -0.197 0 -0.311 -0.007 -0.335 -0.027 -0.519 -0.017 -0.982 -0.024 -1.386 -0.034 -0.405 -0.011 -0.739 -0.02 -0.981 -0.02 -8.075 0 -12.119 1.119 -12.119 3.359 v 16.537 c 0 2.242 3.385 3.363 10.154 3.363 H 58.4 c 1.617 0 3.35 -0.24 5.175 -0.731 2.298 -0.618 3.453 -1.444 3.453 -2.5 V 30.3 h -10.55 c -1.392 0 -2.531 -1.19 -2.531 -2.646 0 -1.458 1.139 -2.65 2.531 -2.65 h 12.687 c 0.641 -0.065 1.561 -0.059 2.74 -0.059 1.755 0 2.633 0.705 2.633 2.122 v 6.535 m 44.302 0.167 V 23.752 c 0 -2.059 -2.911 -3.117 -8.802 -3.117 H 98.394 c -2.149 0 -4.09 0.224 -5.823 0.669 -2.426 0.67 -3.604 1.615 -3.604 2.894 v 9.571 c 0 1.224 1.248 2.171 3.673 2.727 1.664 0.389 3.604 0.559 5.823 0.559 h 11.575 c 1.79631 3.83e-4 3.58672 -0.205635 5.336 -0.614 2.288 -0.612 3.466 -1.503 3.466 -2.672 m 7.208 0 c 0 3.006 -1.802 5.175 -5.476 6.513 -2.563 1.058 -6.03 1.614 -10.327 1.614 H 98.394 c -3.951 0 -7.486 -0.557 -10.675 -1.614 -3.95 -1.392 -5.891 -3.563 -5.891 -6.513 v -9.571 c 0 -2.894 1.941 -5.118 5.823 -6.62 2.911 -1.171 6.444 -1.726 10.674 -1.726 h 11.92 c 10.535 0 15.803 2.727 15.803 8.292 z m 86.393 -15.248 c 0 1.446 -1.109 2.171 -3.188 2.171 -0.277 0 -0.693 0 -1.247 -0.058 h -1.317 c -5.477 0 -8.181 1.059 -8.181 3.285 v 15.805 c 0 1.058 -0.553 1.725 -1.522 2.004 -0.418 0.111 -1.455 0.167 -3.118 0.167 -1.664 0 -2.496 -0.725 -2.496 -2.171 V 23.92 c 0 -3.451 2.149 -5.732 6.517 -6.956 2.635 -0.78 6.584 -1.113 11.854 -1.113 1.8 0 2.698 0.889 2.698 2.67 m 41.948 15.248 V 23.752 c 0 -2.059 -2.912 -3.117 -8.802 -3.117 h -11.646 c -2.149 0 -4.088 0.224 -5.822 0.669 -2.426 0.67 -3.604 1.615 -3.604 2.894 v 9.571 c 0 1.224 1.248 2.171 3.672 2.727 1.666 0.389 3.604 0.559 5.818 0.559 h 11.578 c 1.871 0 3.671 -0.224 5.335 -0.614 2.291 -0.612 3.471 -1.503 3.471 -2.672 m 7.207 0 c 0 3.006 -1.803 5.175 -5.475 6.513 -2.564 1.058 -6.032 1.614 -10.327 1.614 h -11.853 c -3.951 0 -7.485 -0.557 -10.672 -1.614 -3.953 -1.392 -5.894 -3.563 -5.894 -6.513 v -9.571 c 0 -2.894 1.938 -5.118 5.819 -6.62 2.914 -1.171 6.447 -1.726 10.676 -1.726 h 11.92 c 10.533 0 15.803 2.727 15.803 8.292 v 9.625 z M 177.41 20.95 v -4.509 c 0 -1.892 -3.266 -2.895 -9.793 -2.895 h -26.604 v 11.467 h 26.604 c 6.528 0 9.793 -1.392 9.793 -4.063 m 7.501 0.222 c 0 3.284 -2.082 5.677 -6.181 7.183 -3.195 1.056 -7.019 1.557 -11.529 1.557 H 141.013 V 39.6 c 0 1.056 -0.486 1.723 -1.599 2.001 -0.276 0.111 -1.388 0.168 -3.265 0.168 -1.736 0 -2.64 -0.724 -2.64 -2.17 V 10.765 c 0 -1.394 0.902 -2.117 2.64 -2.117 h 31.396 c 4.237 0 7.849 0.501 10.834 1.393 4.377 1.334 6.529 3.338 6.529 5.956 v 5.175 z" FillRule="NonZero"/>
+            </Path.Data>
+          </Path>
+        </Canvas>
+      </Canvas>
+      <Canvas Name="g956">
+        <Canvas Name="g906">
+          <Canvas.RenderTransform>
+            <TranslateTransform X="-0.09537343"/>
+          </Canvas.RenderTransform>
+          <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="52.6" Width="0.9" Canvas.Top="279.5" Height="0.8" Name="path859" Fill="#FF000000" StrokeThickness="0.69460064" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+          <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="54.2" Width="0.9" Canvas.Top="279.5" Height="0.8" Name="path8598" Fill="#FF000000" StrokeThickness="0.69460064" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+          <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="55.9" Width="0.9" Canvas.Top="279.5" Height="0.8" Name="path8599" Fill="#FF000000" StrokeThickness="0.69460064" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+        </Canvas>
+        <Canvas Name="g9066">
+          <Canvas.RenderTransform>
+            <TranslateTransform X="-0.09537343" Y="1.5424554"/>
+          </Canvas.RenderTransform>
+          <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="52.6" Width="0.9" Canvas.Top="279.5" Height="0.8" Name="path85991" Fill="#FF000000" StrokeThickness="0.69460064" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+          <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="54.2" Width="0.9" Canvas.Top="279.5" Height="0.8" Name="path85981" Fill="#FF000000" StrokeThickness="0.69460064" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+          <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="55.9" Width="0.9" Canvas.Top="279.5" Height="0.8" Name="path85993" Fill="#FF000000" StrokeThickness="0.69460064" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+        </Canvas>
+        <Canvas Name="g9061">
+          <Canvas.RenderTransform>
+            <TranslateTransform X="-0.09537343" Y="3.0849098"/>
+          </Canvas.RenderTransform>
+          <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="52.6" Width="0.9" Canvas.Top="279.5" Height="0.8" Name="path8597" Fill="#FF000000" StrokeThickness="0.69460064" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+          <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="54.2" Width="0.9" Canvas.Top="279.5" Height="0.8" Name="path85989" Fill="#FF000000" StrokeThickness="0.69460064" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+          <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="55.9" Width="0.9" Canvas.Top="279.5" Height="0.8" Name="path85997" Fill="#FF000000" StrokeThickness="0.69460064" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+        </Canvas>
+      </Canvas>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="17.901009" Canvas.Top="256.8269" Width="22.509039" Height="22.542837" RadiusX="1.9133003" RadiusY="2.0047357" Name="rect855" StrokeThickness="2.32669473" Stroke="#FF000000" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="41.774868" Canvas.Top="251.55467" Width="25.625689" Height="25.643293" RadiusX="5.9726048" RadiusY="7.2908006" Name="rect836" Fill="#FF4D4D4D" StrokeThickness="1.22221196" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="43.937538" Canvas.Top="253.71883" Width="21.300348" Height="21.314981" RadiusX="4.9644938" RadiusY="6.0601921" Name="rect8368" Fill="#FF4D4D4D" StrokeThickness="1.68200004" Stroke="#FF000000" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+      <Canvas Name="g1105">
+        <Canvas.RenderTransform>
+          <TranslateTransform X="5.0255938" Y="-42.498286"/>
+        </Canvas.RenderTransform>
+        <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="44.3" Canvas.Top="301.6" Width="10.5" Height="10.5" Name="path1045" Fill="{StaticResource linearGradient1063}" StrokeThickness="0.40000001" Stroke="#FF000000" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+        <Ellipse xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="48.7" Canvas.Top="306" Width="1.8" Height="1.8" Name="path1078" Fill="#FFCCCCCC" StrokeThickness="1.407673" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+      </Canvas>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="41.774868" Canvas.Top="251.55467" Width="25.625689" Height="25.643293" RadiusX="5.9726048" RadiusY="7.2908006" Name="rect8363" Fill="{StaticResource linearGradient1128}" StrokeThickness="1.22221196" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Opacity="1"/>
+    </Canvas>
+  </Canvas>
+</Viewbox>
