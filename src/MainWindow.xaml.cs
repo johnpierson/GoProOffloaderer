@@ -189,6 +189,8 @@ namespace GoProOffloaderer
                     GattCharacteristicsResult res = await gatt.GetCharacteristicsAsync();
                     if (res.Status == GattCommunicationStatus.Success)
                     {
+                        this.Status.Background = new SolidColorBrush(Colors.LawnGreen);
+
                         IReadOnlyList<GattCharacteristic> characteristics = res.Characteristics;
                         foreach (GattCharacteristic characteristic in characteristics)
                         {
