@@ -577,8 +577,51 @@ namespace GoProOffloaderer
 
             return returnLength;
         }
+        private async void TogglefWifiAP(int onOff)
+        {
+            DataWriter mm = new DataWriter();
+            mm.WriteBytes(new byte[] { 0x03, 0x17, 0x01, (byte)onOff });
+            GattCommunicationStatus res = GattCommunicationStatus.Unreachable;
+
+            if (onOff != 1 && onOff != 0)
+            {
+                res = GattCommunicationStatus.AccessDenied;
+            }
+            else if (mSendCmds != null)
+            {
+                res = await mSendCmds.WriteValueAsync(mm.DetachBuffer());
+            }
+            if (res != GattCommunicationStatus.Success)
+            {
+                StatusOutput("Failed to turn on wifi: " + res.ToString());
+            }
+        }
+
+        private async void ToggleTurboTransfer(int onOff)
+        {
+            DataWriter mm = new DataWriter();
+            mm.WriteBytes(new byte[] { 0x04, 0xF1, 0x6B, 0x08, (byte)onOff });
+            GattCommunicationStatus res = GattCommunicationStatus.Unreachable;
+
+            if (onOff != 1 && onOff != 0)
+            {
+                res = GattCommunicationStatus.AccessDenied;
+            }
+            else if (mSendCmds != null)
+            {
+                res = await mSendCmds.WriteValueAsync(mm.DetachBuffer());
+            }
+            if (res != GattCommunicationStatus.Success)
+            {
+                StatusOutput("Failed to turn on turbo transfer: " + res.ToString());
+            }
+        }
         #endregion
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ToggleTurboTransfer(1);
+        }
     }
 
     public class BrushBoolColorConverter : IValueConverter
